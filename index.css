@@ -1,0 +1,79 @@
+:root {
+    --black-king:   url('chrome-extension://@__Extension_ID__/img/bk.png');
+    --black-queen:  url('chrome-extension://@__Extension_ID__/img/bq.png');
+    --black-rook:   url('chrome-extension://@__Extension_ID__/img/br.png');
+    --black-bishop: url('chrome-extension://@__Extension_ID__/img/bb.png');
+    --black-knight: url('chrome-extension://@__Extension_ID__/img/bn.png');
+    --black-pawn:   url('chrome-extension://@__Extension_ID__/img/bp.png');
+    --white-king:   url('chrome-extension://@__Extension_ID__/img/wk.png');
+    --white-queen:  url('chrome-extension://@__Extension_ID__/img/wq.png');
+    --white-rook:   url('chrome-extension://@__Extension_ID__/img/wr.png');
+    --white-bishop: url('chrome-extension://@__Extension_ID__/img/wb.png');
+    --white-knight: url('chrome-extension://@__Extension_ID__/img/wn.png');
+    --white-pawn:   url('chrome-extension://@__Extension_ID__/img/wp.png');
+    --hint:         url('chrome-extension://@__Extension_ID__/img/test.png');
+}
+
+.hint {
+    background-image: var(--hint) !important;
+    cursor: -webkit-grab;
+    height: 12.5%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    touch-action: none;
+    width: 12.5%;
+    will-change: transform;
+    background-size: 100%;
+    border-radius: 0 !important;
+    padding: 0 !important;
+}
+
+.wk {
+    background-image: var(--white-king) !important;
+}
+
+.wq {
+    background-image: var(--white-queen) !important;
+}
+
+.wr {
+    background-image: var(--white-rook) !important;
+}
+
+.wb {
+    background-image: var(--white-bishop) !important;
+}
+
+.wn {
+    background-image: var(--white-knight) !important;
+}
+
+.wp {
+    background-image: var(--white-pawn) !important;
+}
+
+.bk {
+    background-image: var(--black-king) !important;
+}
+
+.bq {
+    background-image: var(--black-queen) !important;
+}
+
+.br {
+    background-image: var(--black-rook) !important;
+}
+
+.bb {
+    background-image: var(--black-bishop) !important;
+}
+
+.bn {
+    background-image: var(--black-knight) !important;
+}
+
+.bp {
+    background-image: var(--black-pawn) !important;
+}

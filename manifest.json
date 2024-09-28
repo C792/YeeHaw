@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "YeeHaw",
+    "version": "0.1",
+    "description": "Customization Tool for Chess.com",
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": true
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.chess.com/*"],
+            "js": ["index.js"],
+            "css": ["index.css"]
+        }
+    ],
+    "action": {    
+        "default_icon": "favicon.png"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
